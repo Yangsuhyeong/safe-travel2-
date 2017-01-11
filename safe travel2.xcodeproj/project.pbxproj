@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDEBFA871E262A220092A75D /* THUMBNAIL_60_60_icon_rep_box.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDEBFA861E262A220092A75D /* THUMBNAIL_60_60_icon_rep_box.gif */; };
+		EDF3A11E1E1F5D7A004F91BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3A11D1E1F5D7A004F91BB /* AppDelegate.swift */; };
+		EDF3A1201E1F5D7A004F91BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3A11F1E1F5D7A004F91BB /* ViewController.swift */; };
+		EDF3A1231E1F5D7A004F91BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF3A1211E1F5D7A004F91BB /* Main.storyboard */; };
+		EDF3A1281E1F5D7A004F91BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF3A1261E1F5D7A004F91BB /* LaunchScreen.storyboard */; };
+		EDF3A1331E1F5D7A004F91BB /* safe_travel2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3A1321E1F5D7A004F91BB /* safe_travel2Tests.swift */; };
+		EDF3A13E1E1F5D7A004F91BB /* safe_travel2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3A13D1E1F5D7A004F91BB /* safe_travel2UITests.swift */; };
+		EDF3A14E1E1F8524004F91BB /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3A14D1E1F8524004F91BB /* UIViewController+Navigation.swift */; };
+		EDFE928D1E236293007AD7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFE928C1E236293007AD7E6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF3A12F1E1F5D7A004F91BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF3A1121E1F5D7A004F91BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF3A1191E1F5D7A004F91BB;
+			remoteInfo = "safe travel2";
+		};
+		EDF3A13A1E1F5D7A004F91BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF3A1121E1F5D7A004F91BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF3A1191E1F5D7A004F91BB;
+			remoteInfo = "safe travel2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDEBFA861E262A220092A75D /* THUMBNAIL_60_60_icon_rep_box.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = THUMBNAIL_60_60_icon_rep_box.gif; path = ../../../Downloads/THUMBNAIL_60_60_icon_rep_box.gif; sourceTree = "<group>"; };
+		EDF3A11A1E1F5D7A004F91BB /* safe travel2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "safe travel2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3A11D1E1F5D7A004F91BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF3A11F1E1F5D7A004F91BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF3A1221E1F5D7A004F91BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF3A1271E1F5D7A004F91BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF3A1291E1F5D7A004F91BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3A12E1E1F5D7A004F91BB /* safe travel2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "safe travel2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3A1321E1F5D7A004F91BB /* safe_travel2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safe_travel2Tests.swift; sourceTree = "<group>"; };
+		EDF3A1341E1F5D7A004F91BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3A1391E1F5D7A004F91BB /* safe travel2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "safe travel2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3A13D1E1F5D7A004F91BB /* safe_travel2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safe_travel2UITests.swift; sourceTree = "<group>"; };
+		EDF3A13F1E1F5D7A004F91BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF3A14D1E1F8524004F91BB /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../../Documents/PilotPlant/Sources/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		EDFE928C1E236293007AD7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF3A1171E1F5D7A004F91BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3A12B1E1F5D7A004F91BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3A1361E1F5D7A004F91BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF3A1111E1F5D7A004F91BB = {
+			isa = PBXGroup;
+			children = (
+				EDF3A11C1E1F5D7A004F91BB /* safe travel2 */,
+				EDF3A1311E1F5D7A004F91BB /* safe travel2Tests */,
+				EDF3A13C1E1F5D7A004F91BB /* safe travel2UITests */,
+				EDF3A11B1E1F5D7A004F91BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF3A11B1E1F5D7A004F91BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3A11A1E1F5D7A004F91BB /* safe travel2.app */,
+				EDF3A12E1E1F5D7A004F91BB /* safe travel2Tests.xctest */,
+				EDF3A1391E1F5D7A004F91BB /* safe travel2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF3A11C1E1F5D7A004F91BB /* safe travel2 */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3A11D1E1F5D7A004F91BB /* AppDelegate.swift */,
+				EDF3A11F1E1F5D7A004F91BB /* ViewController.swift */,
+				EDF3A1211E1F5D7A004F91BB /* Main.storyboard */,
+				EDFE928C1E236293007AD7E6 /* Assets.xcassets */,
+				EDEBFA861E262A220092A75D /* THUMBNAIL_60_60_icon_rep_box.gif */,
+				EDF3A14D1E1F8524004F91BB /* UIViewController+Navigation.swift */,
+				EDF3A1261E1F5D7A004F91BB /* LaunchScreen.storyboard */,
+				EDF3A1291E1F5D7A004F91BB /* Info.plist */,
+			);
+			path = "safe travel2";
+			sourceTree = "<group>";
+		};
+		EDF3A1311E1F5D7A004F91BB /* safe travel2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3A1321E1F5D7A004F91BB /* safe_travel2Tests.swift */,
+				EDF3A1341E1F5D7A004F91BB /* Info.plist */,
+			);
+			path = "safe travel2Tests";
+			sourceTree = "<group>";
+		};
+		EDF3A13C1E1F5D7A004F91BB /* safe travel2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3A13D1E1F5D7A004F91BB /* safe_travel2UITests.swift */,
+				EDF3A13F1E1F5D7A004F91BB /* Info.plist */,
+			);
+			path = "safe travel2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF3A1191E1F5D7A004F91BB /* safe travel2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3A1421E1F5D7A004F91BB /* Build configuration list for PBXNativeTarget "safe travel2" */;
+			buildPhases = (
+				EDF3A1161E1F5D7A004F91BB /* Sources */,
+				EDF3A1171E1F5D7A004F91BB /* Frameworks */,
+				EDF3A1181E1F5D7A004F91BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "safe travel2";
+			productName = "safe travel2";
+			productReference = EDF3A11A1E1F5D7A004F91BB /* safe travel2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF3A12D1E1F5D7A004F91BB /* safe travel2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3A1451E1F5D7A004F91BB /* Build configuration list for PBXNativeTarget "safe travel2Tests" */;
+			buildPhases = (
+				EDF3A12A1E1F5D7A004F91BB /* Sources */,
+				EDF3A12B1E1F5D7A004F91BB /* Frameworks */,
+				EDF3A12C1E1F5D7A004F91BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF3A1301E1F5D7A004F91BB /* PBXTargetDependency */,
+			);
+			name = "safe travel2Tests";
+			productName = "safe travel2Tests";
+			productReference = EDF3A12E1E1F5D7A004F91BB /* safe travel2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF3A1381E1F5D7A004F91BB /* safe travel2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF3A1481E1F5D7A004F91BB /* Build configuration list for PBXNativeTarget "safe travel2UITests" */;
+			buildPhases = (
+				EDF3A1351E1F5D7A004F91BB /* Sources */,
+				EDF3A1361E1F5D7A004F91BB /* Frameworks */,
+				EDF3A1371E1F5D7A004F91BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF3A13B1E1F5D7A004F91BB /* PBXTargetDependency */,
+			);
+			name = "safe travel2UITests";
+			productName = "safe travel2UITests";
+			productReference = EDF3A1391E1F5D7A004F91BB /* safe travel2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF3A1121E1F5D7A004F91BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = doken;
+				TargetAttributes = {
+					EDF3A1191E1F5D7A004F91BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EDF3A12D1E1F5D7A004F91BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDF3A1191E1F5D7A004F91BB;
+					};
+					EDF3A1381E1F5D7A004F91BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDF3A1191E1F5D7A004F91BB;
+					};
+				};
+			};
+			buildConfigurationList = EDF3A1151E1F5D7A004F91BB /* Build configuration list for PBXProject "safe travel2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF3A1111E1F5D7A004F91BB;
+			productRefGroup = EDF3A11B1E1F5D7A004F91BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF3A1191E1F5D7A004F91BB /* safe travel2 */,
+				EDF3A12D1E1F5D7A004F91BB /* safe travel2Tests */,
+				EDF3A1381E1F5D7A004F91BB /* safe travel2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF3A1181E1F5D7A004F91BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEBFA871E262A220092A75D /* THUMBNAIL_60_60_icon_rep_box.gif in Resources */,
+				EDF3A1281E1F5D7A004F91BB /* LaunchScreen.storyboard in Resources */,
+				EDFE928D1E236293007AD7E6 /* Assets.xcassets in Resources */,
+				EDF3A1231E1F5D7A004F91BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3A12C1E1F5D7A004F91BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3A1371E1F5D7A004F91BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF3A1161E1F5D7A004F91BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3A14E1E1F8524004F91BB /* UIViewController+Navigation.swift in Sources */,
+				EDF3A1201E1F5D7A004F91BB /* ViewController.swift in Sources */,
+				EDF3A11E1E1F5D7A004F91BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3A12A1E1F5D7A004F91BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3A1331E1F5D7A004F91BB /* safe_travel2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF3A1351E1F5D7A004F91BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF3A13E1E1F5D7A004F91BB /* safe_travel2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF3A1301E1F5D7A004F91BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF3A1191E1F5D7A004F91BB /* safe travel2 */;
+			targetProxy = EDF3A12F1E1F5D7A004F91BB /* PBXContainerItemProxy */;
+		};
+		EDF3A13B1E1F5D7A004F91BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF3A1191E1F5D7A004F91BB /* safe travel2 */;
+			targetProxy = EDF3A13A1E1F5D7A004F91BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF3A1211E1F5D7A004F91BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF3A1221E1F5D7A004F91BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF3A1261E1F5D7A004F91BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF3A1271E1F5D7A004F91BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF3A1401E1F5D7A004F91BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF3A1411E1F5D7A004F91BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF3A1431E1F5D7A004F91BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "safe travel2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.safe-travel2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDF3A1441E1F5D7A004F91BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "safe travel2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.safe-travel2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EDF3A1461E1F5D7A004F91BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "safe travel2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.safe-travel2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/safe travel2.app/safe travel2";
+			};
+			name = Debug;
+		};
+		EDF3A1471E1F5D7A004F91BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "safe travel2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.safe-travel2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/safe travel2.app/safe travel2";
+			};
+			name = Release;
+		};
+		EDF3A1491E1F5D7A004F91BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "safe travel2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.safe-travel2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "safe travel2";
+			};
+			name = Debug;
+		};
+		EDF3A14A1E1F5D7A004F91BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "safe travel2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.korea.safe-travel2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "safe travel2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF3A1151E1F5D7A004F91BB /* Build configuration list for PBXProject "safe travel2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3A1401E1F5D7A004F91BB /* Debug */,
+				EDF3A1411E1F5D7A004F91BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3A1421E1F5D7A004F91BB /* Build configuration list for PBXNativeTarget "safe travel2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3A1431E1F5D7A004F91BB /* Debug */,
+				EDF3A1441E1F5D7A004F91BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3A1451E1F5D7A004F91BB /* Build configuration list for PBXNativeTarget "safe travel2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3A1461E1F5D7A004F91BB /* Debug */,
+				EDF3A1471E1F5D7A004F91BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF3A1481E1F5D7A004F91BB /* Build configuration list for PBXNativeTarget "safe travel2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF3A1491E1F5D7A004F91BB /* Debug */,
+				EDF3A14A1E1F5D7A004F91BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF3A1121E1F5D7A004F91BB /* Project object */;
+}
